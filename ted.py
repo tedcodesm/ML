@@ -10,3 +10,5 @@
 # else:
 #     print('More')
 
+mylist = ["banana","cherry","apple"]
+print (mylist )

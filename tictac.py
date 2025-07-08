@@ -12,7 +12,7 @@ buttons = []
 # Check for winner
 def check_winner(player):
     for row in board:
-        if all(cell == player for cell in row):
+        if all(cell == player for cell in row):  
             return True
     for col in range(3):
         if all(board[row][col] == player for row in range(3)):
